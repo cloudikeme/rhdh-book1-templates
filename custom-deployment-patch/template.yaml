@@ -25,7 +25,7 @@ spec:
           title: Cluster Id
           type: string
           description: Id of the cluster
-          default: <XXX_XXX_XXX>
+          default: XXX_XXX_XXX
         gitlabGroup:
           title: GitLab repo owner
           type: string
