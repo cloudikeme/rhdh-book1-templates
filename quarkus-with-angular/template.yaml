@@ -11,7 +11,7 @@ metadata:
     - angular
     - book
 spec:
-  owner: rhdh-idp-book-authors
+  owner: cloudikeme
   type: service
 
   parameters:
