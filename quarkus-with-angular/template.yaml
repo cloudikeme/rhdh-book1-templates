@@ -17,7 +17,7 @@ spec:
   parameters:
     - title: Provide information about the GitLab location
       required:
-        - gitlabGroup
+        - gitlabGroup:
       properties:
         gitlabGroup:
           title: Repo Owner
@@ -96,7 +96,7 @@ spec:
       input:
         sourcePath: ./source
         description: ${{parameters.description}}
-        repoUrl: gitlab-gitlab${{parameters.cluster_id}}?owner=${{parameters.gitlabGroup}}&repo=${{parameters.namespace}}-${{parameters.application_id}}
+        repoUrl: gitlab.com${{parameters.cluster_id}}?owner=${{parameters.gitlabGroup}}&repo=${{parameters.namespace}}-${{parameters.application_id}}
         defaultBranch: main
         protectDefaultBranch: false
         repoVisibility: public
