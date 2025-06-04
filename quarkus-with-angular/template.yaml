@@ -96,7 +96,7 @@ spec:
       input:
         sourcePath: ./source
         description: ${{parameters.description}}
-        repoUrl: https://gitlab-gitlab${{parameters.cluster_id}}?owner=${{parameters.gitlabGroup}}&repo=${{parameters.namespace}}-${{parameters.application_id}}
+        repoUrl: gitlab-gitlab${{parameters.cluster_id}}?owner=${{parameters.gitlabGroup}}&repo=${{parameters.namespace}}-${{parameters.application_id}}
         defaultBranch: main
         protectDefaultBranch: false
         repoVisibility: public
